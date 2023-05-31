@@ -27,6 +27,19 @@
 <!-- Signer et dater la page, c'est une question de politesse! -->
 <address>Fait le 5 avril 2004<br>
   par moi.</address>
-
+<form action="/ma-page-de-traitement" method="post">
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">e-mail&nbsp;:</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+</form>
 </body>
 </html>
